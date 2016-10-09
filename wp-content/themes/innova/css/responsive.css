@@ -1,0 +1,449 @@
+/* Styles for desktop screen size above 1024  and below 1552  ================================================================== */
+@media only screen and (min-width: 1024px) and (max-width: 1152px) {
+#box_layout {
+    margin: 0 auto;
+    width: 990px;
+}
+.container {
+    margin: 0 auto;
+    width: 930px;
+
+}
+.promobox_content h2{
+	font-size: 3.5em!important;
+}
+}
+
+/* Styles for Ipad/tablet Landscape (768) ================================================================== */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+#box_layout{
+    margin: 0 auto;
+    width: 728px;
+}
+.container {
+    margin: 0 auto;
+    width: 691px;
+   }
+.header_left_section {
+    margin-left: -50%;
+    margin-right: -50%;
+    padding: 30px 50%;
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+.header_right_section {
+    float:none!important;
+    margin: 0 auto;
+    display: block;
+    padding: 13px 0!important;
+    text-align: center;
+}
+#box_layout .header_left_section {
+   margin: 0 0 0 -18px !important;
+    padding: 24px 19px !important;
+}
+#main_slider, .sub_header_wrapper {
+    margin-top:0!important;
+}
+#main_slider{
+	min-height: 250px!important;
+}
+
+#main_slider #controls {
+    border-bottom: 38px solid #F54325!important;
+}
+.slides_description h3, .promobox_content h2{
+	font-size: 3em!important;
+}
+.sub_header_wrapper .two_third, .sub_header_wrapper .one_third_last{
+	margin: 0 auto;
+    text-align: center;
+    width: 100% !important;   
+}
+.logo{
+	margin:0px auto;
+}
+nav .menu {
+ 	clear: both;
+    line-height: 32px;
+    margin: 0 auto;
+    min-height: 32px;
+    padding: 1%;
+    width: 98%;
+ }
+
+nav .menu ul {
+	display:none;
+}
+nav .menu select {
+    background-color: #E4E4E4;
+    border: 1px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: 100%;
+}
+nav .menu select option {
+	padding-bottom:3px;
+}
+
+nav {
+    float:none;
+	padding:0px;
+	width: 100%!important;
+	top: 0;
+ }
+ .nav_wrap .container{
+ 	padding: 0px;
+ }
+
+#singlepage_nav {
+    margin-top: 18px;
+      float: none;
+}
+/* Default Gallery 
+------------------------------------------------------*/
+.gallery-item {
+    width: 33.30%!important;
+}
+/* portfolio  */
+.portfolio4  li, #relatedposts li{
+	width:31.75%!important;
+}
+/* blog */
+#sidebar li .description{
+	overflow:inherit;
+}
+.two_third .porfolio_items li, .two_third_last .porfolio_items li{
+	width: 48.5%!important;
+}
+#contact-form input, #contact-form textarea, #commentform input, #commentform textarea {
+    width: 96%!important;
+}
+#respond .one_half_last input{
+	width: 93%!important;
+}
+.widget_dropcap-widget, .widget_iconbox-widget, .widget_kaya-services {
+    padding: 0 15px!important;
+    margin: 0px auto;
+}
+
+.caption h3 {
+    font-size: 2.5em !important;
+
+}
+.caption p {
+    font-size: 1.3em !important;
+    width: 100%!important;
+}
+.isotope_gallery li{
+	width:32.6%;
+}
+
+.bx-controls{
+	display: none;
+}
+.image-boxes .description, .latest_news .description{
+	display: inline-block!important;
+}
+}
+/* Styles for Mobile Potrait (320) ================================================================== */
+@media only screen and (max-width: 767px) {
+#mid_container_wrapper {
+	min-height: 300px;
+}
+#box_layout{
+    margin: 0 auto;
+    width:320px!important;
+}
+.container {
+    margin:0 auto;
+    width:300px;
+	padding:0px 10px;
+}
+.bx-controls{
+	display: none;
+}
+/* mid content section padding top
+----------------------------------------*/
+.entry-content .panel-row-style {
+    padding: 40px 0;
+}
+
+/* Header section
+----------------------------------------*/
+.bread_crumb, #singlepage_nav{
+	   display: table;
+    margin: 0 auto !important;
+    float:none;
+}
+.sub_header_wrapper h2{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.header_right_section, .header_left_section {
+    margin: 0 auto;
+    text-align: center;
+	float: none !important;
+	display:inherit;
+}
+.header_right_section{
+	padding: 13px 0!important;
+}
+.header_left_section {
+    float: left;
+    padding: 21px 0 20px!important;
+}
+
+.sub_header_wrapper{
+	margin-top: 0!important;
+}
+
+/* slider */
+.slides_description h3, .caption h3.slide_title, .sub_header h2{
+	font-size:1.7em!important;
+}
+.slides-navigation{
+	display: none!important;
+}
+#main_slider{
+	min-height: inherit!important;
+}
+#main_slider .caption h3.slide_title {
+	display: none;
+}
+#main_slider #controls {
+	border-bottom: 37px solid #F54325!important;
+}
+.slides_description p, .caption p{
+	font-size: inherit!important;
+}
+.slider_below_content .container{
+	padding:30px 0!important;
+}
+
+.bx-wrapper .caption h3.slide_title {
+	font-size: 2em!important;
+}
+
+/* Menu
+------------------------------------------------------*/
+.header_left_section {
+    float:none;
+	width:100%!important;
+	text-align:center!important;
+}
+.header_right_section {
+    float:none;
+	width:100%!important;
+	text-align:center!important;
+}
+.logo{
+	margin:0px auto;
+}
+nav .menu {
+ clear: both;
+    line-height: 32px;
+    margin: 0 auto;
+    min-height: 32px;
+    padding: 1%;
+    width: 98%;
+    
+ }
+
+nav .menu ul {
+	display:none;
+}
+nav .menu select {
+    background-color: #E4E4E4;
+    border: 1px solid #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: 100%;
+}
+nav .menu select option {
+	padding-bottom:3px;
+}
+
+nav {
+    float:none;
+	padding:0px;
+	width: 100%!important;
+	top: 0;
+ }
+ .nav_wrap .container{
+ 	padding: 0px;
+ }
+.fluid_divider{
+	height:0!important;
+}
+
+/* Footer 
+------------------------------------------------------*/
+#footer_bottom_wrapper , .copy_right,#footer_bottom .footer_menu, .footer_left{
+	text-align:center;
+	float:none;
+    display:block;
+}
+#footer_bottom .one_half_last, #footer_bottom .one_half{
+	margin-bottom:0px!important;
+	padding:10px 0px;
+	text-align: center;
+}
+.one_half_last .footer_social_icons {
+	text-align: center!important;
+	  width: 72% !important;
+}
+
+
+ul.menu {
+	float:none;
+    text-align: center;
+    margin: 0px auto;
+}
+a.blog {
+	clear: both;
+	display: block;
+	margin: 20px auto 0px!important;
+	width: 47%;
+ }
+.post .meta{
+	border:none;
+ }
+#footer_bottom, #footer_top .container {
+    width: 100%!important;
+}
+.footer_bottom_right_section{
+	float:none;
+	text-align:center;
+}
+ /* Contact Form 
+ ------------------------------------------------------*/
+#contact-form input, #contact-form textarea {
+    width: 66%!important;
+}
+#contact-form{
+	background: none!important;
+	padding: 0px!important;
+	border:none;
+}
+.thumb-border{
+	display: none;
+}
+/* Gallery
+------------------------------------------------------*/
+.gallery-item {
+    width: 49.9%!important;
+}
+/* Sidebar 
+------------------------------------------------------*/
+.sidebar {
+    border-right:0px;
+	padding-right:0px;
+}
+.sidebar_left{
+    border-left:0px;
+	padding-left:0px;
+}
+
+/* Portfolio
+------------------------------------------------------*/
+.filter ul li {
+    width: 100%;
+}
+#filter ul li a {
+	display: block!important;
+	text-align: center;
+	border-bottom:0px!important;
+	
+ }
+#filter ul li:last-child a {
+	border-bottom:1px solid #eee!important; 
+}
+.porfolio_items li,.post-column{
+	width: 300px!important;
+	margin-bottom:2.5%!important;
+}
+
+#singlepage_nav {
+	display: none;
+
+}
+.Portfolio_gallery .two_third{
+	margin-bottom:0!important;
+}
+.isotope_gallery li, .single_img .grid_gallery li{
+	width:49%;
+}
+/* image boxes */
+.image-boxes .description{
+	overflow: inherit!important;
+	text-align:inherit;!important;
+}
+.custom_title h2:before, .custom_title h2:after{
+	display: none!important;
+}
+/* Blog */
+span.blog_date{
+	width:100%;
+	border-right:0;
+}
+ /* Columns
+----------------------------------------*/
+.one_half, .one_half_last, .one_third, .one_third_last, .two_third, .two_third_last, .one_fourth, .one_fourth_last, .two_fourth, .two_fourth_last, .three_fourth, .three_fourth_last, .one_fifth, .one_fifth_last, .two_fifth, .two_fifth_last, .three_fifth, .three_fifth_last, .four_fifth, .four_fifth_last, .pricing_table .one_third, .pricing_table .one_fourth
+{
+	width: 100%!important;
+	margin: 0 0 30px!important;
+}
+.footer_wrapper div:last-child{
+	margin-bottom: 0px!important;
+
+}
+
+ .blog_single_img .isotope_gallery li{
+width:49%!important;
+margin-right:0.5%;
+}
+.caption p {
+    display: none;
+}
+.portfolio_fluid ul li{
+	width: 100%!important
+}
+}
+/* Styles for Mobile Landscape (480) ================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#box_layout{
+    margin: 0 auto;
+    width: 480px!important;
+}
+.container{
+    margin: 0 auto;
+    padding: 0px;
+    width: 444px;
+}
+.item_thumb_gallery , ul.kaya_gallery li{
+	width:141px;
+}
+
+/* Portfolio
+------------------------------------------------------*/
+.portfolio_fluid ul li{
+	width: 48%!important
+}
+.porfolio_items li, #relatedposts li, .post-column{
+	width:98.3%!important;
+}
+/* Promobox */
+.promobox_content{
+  padding:30px 0!important;
+  display:block;
+}
+}

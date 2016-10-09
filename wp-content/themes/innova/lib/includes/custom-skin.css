@@ -1,0 +1,24 @@
+
+.project_skills li:nth-child(odd) { 
+	background:#0494c6!important;
+	color:#fff!important;
+}
+.project_skills li:nth-child(even) { 
+	background:#0494c6!important;
+	color:#fff!important; 
+}
+.cbp-spmenu h1, .cbp-spmenu h2, .cbp-spmenu h3,.cbp-spmenu h4, .cbp-spmenu h5, .cbp-spmenu h6 { 
+	color:#fff!important;
+}
+.cbp-spmenu p, .cbp-spmenu, ul.slide-panel-list li { 
+	color:#fff!important; 
+}
+.cbp-spmenu a { 
+	color:#fff!important; 
+}
+.cbp-spmenu a:hover { 
+	color:#fff!important; 
+}
+.cbp-spmenu{
+	background:#333!important; 
+}
